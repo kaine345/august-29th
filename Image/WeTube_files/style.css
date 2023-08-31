@@ -1,0 +1,86 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;700&family=Work+Sans:ital,wght@0,100;0,700;1,300;1,500;1,700&display=swap');
+  *{
+    
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+
+    .nav-links{
+        display: flex;
+        background-color: blueviolet;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .links ul li{
+        display: inline-block;
+         padding: 10px;
+    }
+    .links ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+ .movies ul li {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+ }
+ .movies{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+ }
+
+ .kaine input{
+padding: 15px;
+
+
+ }
+
+ .Latest-trailers{
+    display: flex;
+    gap: 1.5rem;
+ }
+ .Iloh{
+    background-color: black;
+    color: aquamarine;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10rem;
+    height: 500px;
+ }
+ .Iloh.text1{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+ }
+ .Iloh.text1 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+    margin-bottom: 10px;
+ }
+ .Iloh.row1{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 10x o;
+ }
+ .copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+     
+ }
+ 
+    
+ 
